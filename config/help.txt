@@ -1,0 +1,30 @@
+[PsiBot Github](https://github.com/xxmistacruzxx/PsiBot/tree/main)
+:white_small_square: Options inside of () are required. Options inside of [] are optional.
+:white_small_square: Commands with a '-p' option available will allow the output message to be DM'd to the user.
+
+__**General**__
+`!prefix!help [-p]`
+    :white_small_square: *Displays this menu*
+`!prefix!invitelink [-p]`
+    :white_small_square: *Creates invite link for this bot*
+
+__**Games**__
+`!prefix!connect4`
+    :white_small_square: *Starts a connect4 game*
+
+__**MonkeyType**__
+`!prefix!monkeytypemanual [-p]`
+    :white_small_square: *Sends manual of how the MonkeyType commands work*
+`!prefix!setapekey (ApeKey)`
+    :white_small_square: *Assigns the given arg as your ApeKey. This key will be used for !prefix!monkeytypestats*
+`!prefix!monkeytypestats [--u @username, --m mode, -p]`
+    :white_small_square: *Displays MonkeyType stats using MonkeyType API*
+    :white_small_square: *--u @username: Will get stats of the given user. Remember: the user given must set their ApeKey before use*
+    :white_small_square: *--m mode: Will retrieve personal bests of a given mode. Possible modes are: time, words*
+`!prefix!monkeytypelast [--u @username, -p]`
+    :white_small_square: *Displays last taken MonkeyType test*
+    :white_small_square: *--u @username: Will get last test of the given user. Remember: the user given must set their ApeKey before use*
+
+__**Bot Administration Commands**__
+`!prefix!shutdown`
+    :white_small_square: *Turns off bot*

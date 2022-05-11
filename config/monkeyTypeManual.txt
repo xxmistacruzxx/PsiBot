@@ -1,0 +1,15 @@
+The PsiBot MonkeyType Module is designed to display various data from the typing game website, MonkeyType.
+Meaning, this module will only be useful if you use MonkeyType and have an account.
+
+To get started, you'll first need to make an ApeKey for your MonkeyType account. This can be done by...
+1. Goto MonkeyType.com
+2. Hit the settings button (gear icon)
+3. Scroll to the bottom section called "danger zone"
+4. Hit the open button to the right of "ape keys"
+5. Hit "Generate new key" in the top right of the menu, give it a name, and continue.
+6. Copy the ApeKey generated, put it aside, and continue.
+7. Hit the check box to the left of your newly created ApeKey
+Now, you're all done with what needs to be done on MonkeyType's website!
+
+The last thing to do is type `!prefix!setapekey` followed by your ApeKey you just created.
+Now, you're be able to use the other MonkeyType commands to display various stats, personal bests, and results!
